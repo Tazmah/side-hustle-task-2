@@ -1,0 +1,395 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&family=Mulish:ital,wght@0,400;0,500;0,600;1,300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.background .img{
+    height: 100vh;
+    width: 100%;
+}
+
+.background{
+    position: relative;
+}
+
+.icon-left{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+}
+
+.icon-right{
+    position: absolute;
+    top: 50%;
+    right: 8%;
+}
+
+
+.content{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: white;
+    top: 50%; 
+    left: 50%;
+}
+
+.content h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 75px;
+}
+
+.content h1 span{
+    font-weight: 600;
+}
+
+.content p{
+    font-family: 'Mulish';
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.center-btns{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.center-btns a button{
+    width: 250px;
+    height: 80px;
+    background-color: #ffff;
+    border-radius: 2px;
+    font-family: 'Mulish';
+    border: none;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 38px;
+    font-style: normal;
+}
+
+
+
+/*************************
+MENU 
+**************************/
+
+.container {
+    width: 90%;
+    height: 90%;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.side-nav{
+    /* width: 8%; */
+    width: 120px;
+    height:  830px;
+    background: #0C0B0B;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.side-nav img{
+    width: 40px;
+    height: 40px;
+    margin-inline: auto;
+}
+
+.side-nav .img-3{
+    background-color: #F1D5BB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 122px;
+}
+
+.side-nav .location{
+    margin-top: 30px;
+}
+
+.text-logo{
+    font-family: Baloo Bhai;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 102px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#F1D5BB;
+}
+
+.meal-list{
+    width: 92%;
+}
+
+.meal-list .name{
+    font-family: 'Mulish';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.line{
+    border-bottom: 4px solid #F1D5BB;
+    width: 250px;
+}
+
+.meals{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   gap: 3rem;
+
+}
+
+.meals{
+    margin-top: 2rem;
+}
+
+.meal-pic{
+    display: flex;
+    flex-direction: column;
+    width: 224px;
+    height: 275px;
+}
+
+.food-name{
+    text-align: center;
+    font-family: 'Mulish';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+
+
+.down-btn{
+    line-height: 54px;
+    width: 200px;
+    border-radius: 2px;
+    background: #000000;
+    margin: -7rem 48.5%;
+}
+
+.load-more{
+    font-family: 'Mulish';
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 35px;
+    text-transform: uppercase;
+}
+
+
+
+
+/*************************
+CART
+**************************/
+
+.meal-list{
+    width: 92%;
+}
+
+.line2{
+    width: 100px;
+}
+
+.food-details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.food-cart{
+    height: 608px;
+    /* width: 608px; */
+    width: 560px;
+    border-radius: 3px;    
+    background: #F1D5BB;
+}
+
+.sub-total{
+    height: 286px;
+    /* width: 443px; */
+    width: 400px;
+    background: #F1D5BB;
+}
+
+.promo{
+    height: 250px;
+    /* width: 443px; */
+    width: 400px;
+    border: 1px solid #F1D5BB
+}
+
+.food-cart-content .rows{
+    display: flex;
+    flex-direction: row;
+}
+
+.food-cart-content{
+    padding: 30px;
+}
+
+.rows{
+    margin-top: 2.5rem;
+}
+
+.food-cart-content .rows .name-amt{
+    margin: 20px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.food-cart-content .rows .name-amt p{
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+}
+
+.food-cart-content .rows .name-amt span{
+    font-weight: 500;
+}
+
+/* .food-cart-content .rows .number{
+    margin-top: 20px;
+} */
+
+
+
+.food-cart-content .number{
+    margin-top: 30px;
+}
+
+.food-cart-content .number span{
+    width: 20px;
+    height: 20px;
+    background-color: #ffff;
+    padding: 8px 18px;
+}
+
+.btn-X{
+    margin-top: 30px;
+    font-weight: bolder;
+}
+
+.food-cart-content .rows button{
+   /* margin-top: 20px; */
+   margin-left: 130px;
+   border: none;
+   background: none;
+   font-size: 20px;
+}
+
+.food-cart-content .rows img{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+
+
+
+.sub-total{
+    padding-left: 30px;
+    /* margin-top: 2rem; */
+    padding-top: 2rem;
+    padding-right: 0;
+}
+
+.sub-total h1{
+    font-family: 'Mulish';
+}
+
+.sub-total h2{
+    margin-top: 3.5rem;
+    color: #000000CC;
+    font-family: 'Mulish';
+    word-spacing: 15px;
+}
+
+
+.Order{
+    width: 360px;
+    background-color: #000000;
+    line-height: 70px;
+    margin-inline: auto;
+    margin-top: 3rem;
+    padding-left: 0;margin-left: 0;
+    text-align: center;
+}
+
+a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.promo{
+    padding-left: 30px;
+    /* margin-top: 2rem; */
+    padding-top: 1.5rem;
+    padding-right: 0;
+}
+
+.promo h1{
+    font-family: 'Mulish';
+    margin-bottom: 20px;
+}
+
+input{
+    height: 78px;
+    width: 365px;
+    border: 1px solid #F1D5BB;
+    margin-bottom: 1.5rem;
+}
+
+input::placeholder{
+    font-family: Mulish;
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 38px;
+    letter-spacing: 0em;
+    margin-left: 10px;
+}
+
+.apply{
+    line-height: 78px;
+    width: 166px;
+    border-radius: 0px;
+    background: #000000;
+    text-align: center
+}
+
+.apply a {
+    font-family: Mulish;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+}
